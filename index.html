@@ -45,7 +45,8 @@
                 <a href="https://www.linkedin.com/in/ankit-jha-b44435259/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
                 <a href="https://github.com/ankitjha42" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="#" class="btn">Download Resume</a>
+            <a href="assets/Ankit Jha(modified)_removed.pdf" class="btn" download="Ankit_Jha_Resume.pdf">Download Resume</a>
+
     </div>
     <div class="home-img">
         <img src="assets/profile-pic (1).png" alt="profile-pic">
@@ -124,18 +125,20 @@
    <section class="contact" id="contact">
     <h2 class="heading">contact Me!</h2>
 
-    <form action="#">
+    <form action="https://api.web3forms.com/submit" method="POST">
         <div class="input-box">
-            <input type="text" placeholder="Full name" >
-            <input type="email" placeholder="Email Address">
+            <input type="text" placeholder="Full name" name="full_name">
+            <input type="email" placeholder="Email Address" name="email_address">
         </div>
         <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email subject">
+            <input type="number" placeholder="Mobile Number" name="mobile_number">
+            <input type="text" placeholder="Email subject" name="email_subject">
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Youe Message"></textarea>
+        <input type="hidden" name="access_key" value="6b351aeb-6323-4edd-86ed-4754dded53c8">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
     </form>
+    
    </section>
 
    <footer class="footer">

@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    background: var(#1f343d);
+    background:  var(#1f343d);
     color:var(#ffffff);
 }
 
@@ -186,6 +186,8 @@ section{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+
 
 
 .about-img{
